@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Font Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font End -->
+
+    <!-- Font_Awesome kit Start  -->
+    <script src="https://kit.fontawesome.com/09f2b1e8d1.js" crossorigin="anonymous"></script>
+    <!-- Font_Awesome kit End -->
+
+    <!-- DaisyUI And Tailwindcss CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI And Tailwindcss End -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style start -->
+    <style>
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+    <!-- style End -->
+
+    <title>Hockeys</title>
+  </head>
+
+  <body class="manrope-font bg-white h-screen" >
+
+    <!-- Header and Main Section -->
+    <section class="lg:px-24 px-5 " >
+      <!-- Header Section  -->
+      <header >
+        <!-- Nav Bar -->
+
+        <nav class=" pt-12  flex justify-center ">
+          <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#131318"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-800 rounded-box w-52">
+                  <li class="text-[#FF4240]"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[#424247]  font-normal">
+                <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-6">
+              <a href="" class="hidden lg:block text-2xl"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a class="btn btn-error lg:text-xl text-white">Get Ticket</a>
+            </div>
+          </div>
+        </nav>
+
+
+        <!-- Carousel with next/prev -->
+        
+        <section>
+
+          
+
+        </section>
+
+
+
+      </header>
+
+      <!-- Main Section -->
+      <main></main>
+
+    </section>
+
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>

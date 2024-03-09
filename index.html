@@ -10,6 +10,13 @@
     />
     <!-- Google Font End -->
 
+    <!-- Font_Awesome kit Start  -->
+    <script
+      src="https://kit.fontawesome.com/09f2b1e8d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font_Awesome kit End -->
+
     <!-- DaisyUI And Tailwindcss CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css"
@@ -32,18 +39,148 @@
     <title>Hockeys</title>
   </head>
 
-  <body class="manrope-font">
-
+  <body class="manrope-font bg-white ">
     <!-- Header and Main Section -->
-    <section class="max-w-screen-sm lg:max-w-5xl lg:px-24 sm:px-5 " >
+    <section class="lg:px-24 px-5">
       <!-- Header Section  -->
       <header>
+        <!-- Nav Bar -->
 
+        <nav class="pt-12 flex justify-center">
+          <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="#131318"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-800 rounded-box w-52"
+                >
+                  <li class="text-[#FF4240]"><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a
+                class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-[#131318]"
+                >Hockey<span class="text-[#FF4240]">’</span>s</a
+              >
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-[#424247] font-normal">
+                <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-6">
+              <a href="" class="hidden lg:block text-2xl"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <a class="btn btn-error lg:text-xl text-white">Get Ticket</a>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Carousel with next/prev -->
+
+        <section class="relative mt-7 lg:mt-12">
+          <div
+            class="carousel w-full lg:h-[550px] h-[200px] rounded-2xl mb-4  "
+          >
+           
+
+            <!-- slide1 -->
+
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./Images/1.png" class="w-full" />
+
+              <div
+                class="absolute flex gap-4 justify-center lg:justify-normal transform -translate-y-1/2 left-5 right-5 lg:top-[478px] top-[152px]"
+              >
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide2 -->
+
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./Images/2.png" class="w-full" />
+
+              <div
+                class="absolute flex gap-4 justify-center lg:justify-normal transform -translate-y-1/2 left-5 right-5 lg:top-[478px] top-[152px]"
+              >
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide3 -->
+
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./Images/3.png" class="w-full" />
+
+              <div
+                class="absolute flex gap-4 justify-center lg:justify-normal transform -translate-y-1/2 left-5 right-5 lg:top-[478px] top-[152px]"
+              >
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <!-- slide4 -->
+
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./Images/4.png" class="w-full" />
+
+              <div
+                class="absolute flex gap-4 justify-center lg:justify-normal transform -translate-y-1/2 left-5 right-5 lg:top-[478px] top-[152px]"
+              >
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+           
+          </div>
+          
+          <!-- Meet all the heroes Section -->
+
+          <div class="card w-full lg:w-[566px] h-36 lg:h-40 bg-[#131318] absolute  lg:bottom-0 lg:right-0 lg:mb-8 lg:mr-8 p-4 lg:p-8">
+            
+              <h2 class="card-title text-lg lg:text-2xl font-extrabold pb-1 lg:pb-4 text-white">Meet all the heroes from the field</h2>
+              <p class="font-medium text-sm lg:text-base">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            
+          </div>
+
+
+        </section>
       </header>
 
       <!-- Main Section -->
       <main></main>
-
     </section>
 
     <!-- Footer Section -->
